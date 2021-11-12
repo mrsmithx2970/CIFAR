@@ -1,6 +1,13 @@
 # CIFAR
 ## CIFAR-10 
-The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. 
+The CIFAR-10 is a  dataset consists of several images divided into the following 10 classes:
+Airplanes, Cars, Birds, Cats, Deer, Dogs, Frogs, Horses, Ships, Trucks
+The dataset stands for the Canadian Institute For Advanced Research (CIFAR)
+CIFAR-10 is widely used for machine learning and computer vision applications. 
+The dataset consists of 60,000 32x32 color images, 6,000 images of each class.
+Images have low resolution (32x32). 
+Data Source: https://www.cs.toronto.edu/~kriz/cifar.html
+ There are 50000 training images and 10000 test images.Images are 32x32 pixels(colored)
 
 The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class. 
 
